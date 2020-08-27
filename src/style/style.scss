@@ -319,6 +319,163 @@ $white: #ffffff;
   }
 }
 
+.card-screen {
+  &__inner {
+    padding-bottom: 50px;
+  }
+}
+
+.card {
+  padding: 40px 110px;
+  background: linear-gradient(297.48deg, #FF7A00 44.54%, #FFC000 96.68%);
+  box-shadow: 10px 10px 50px rgba(255, 214, 0, 0.4);
+  border-radius: 24px;
+  color: $white;
+
+  &__title {
+    margin-bottom: 50px;
+    text-align: center;
+  }
+
+  &__content {
+    display: flex;
+  }
+
+  &__image-container {
+    margin-right: 30px;
+    text-align: center;
+  }
+
+  &__image {
+    max-width: 165px;
+    max-height: 190px;
+    margin-bottom: 10px;
+    object-fit: contain;
+  }
+
+  &__caption {
+    font-size: rem(12);
+    width: 165px;
+  }
+
+  &__info {
+  }
+
+  &__name {
+    margin-bottom: 20px;
+  }
+
+  &__text-block {
+    display: flex;
+  }
+
+  &__text {
+    margin-bottom: 0;
+
+    &_splited {
+      flex-basis: calc(50% - 15px);
+      
+      &:first-child {
+        margin-right: 30px;
+      }
+    }
+  }
+}
+
+.owl-theme .owl-nav {
+  margin-top: 45px;
+  margin-bottom: -24px;
+}
+
+.owl-carousel .owl-nav button.owl-next > span, 
+.owl-carousel .owl-nav button.owl-prev > span { 
+  display: none;
+}
+
+.owl-carousel .owl-nav button.owl-next, 
+.owl-carousel .owl-nav button.owl-prev {
+  width: 30px;
+  height: 18px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+  background-image: url("../img/icon-2.png");
+}
+
+.owl-carousel .owl-nav button.owl-prev {
+  transform: rotate(-180deg);
+  margin-right: 138px;
+}
+
+.owl-carousel .owl-nav button.owl-next {
+  margin-left: 138px;
+}
+
+.owl-theme .owl-dots .owl-dot {
+  &:not(:last-child) {
+    margin-right: 10px;
+  }
+}
+
+.owl-theme .owl-dots .owl-dot span {
+  background: #00D13B;
+  opacity: 0.3;
+}
+
+.owl-theme .owl-dots .owl-dot.active span, 
+.owl-theme .owl-dots .owl-dot:hover span {
+  background: #00D13B;
+  opacity: 1;
+}
+
+
+
+.list-screen-2 {
+  &__inner {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  &__content {
+    max-width: 910px;
+    margin: 0 auto;
+  }
+
+  &__title {
+    text-align: center;
+    margin-bottom: 60px;
+  }
+
+  &__list {
+    padding-bottom: 20px;
+  }
+
+  &__item {
+    margin-bottom: 40px;
+    padding-left: 75px;
+    position: relative;
+
+    &::before {
+      content: attr(data-number);
+      font-family: 'Yeseva One', cursive;
+      font-size: rem(85);
+      color: #FF7A00;
+      line-height: 0.8;
+      position: absolute;
+      bottom: 0; left: 0;
+      text-align: center;
+    }
+  }
+
+  &__item-title {
+    margin-bottom: 20px;
+  }
+}
+
+
+
+
+
 // Responsive(Adaptive)
 // ////////////////////
 // ////////////////////
