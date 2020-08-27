@@ -3,6 +3,12 @@
 $black: #000000;
 $white: #ffffff;
 
+.outer {
+  max-width: 1920px;
+  margin: 0 auto;
+  position: relative;
+}
+
 .keepcenter {
   max-width: 1140px;
   margin: 0 auto;
@@ -45,13 +51,6 @@ $white: #ffffff;
 
 .font-family-2 {
   font-family: 'Yeseva One', cursive;
-}
-
-.outer {
-  max-width: 1920px;
-  margin: 0 auto;
-  position: relative;
-  overflow: hidden;
 }
 
 .head-screen-background {
@@ -143,8 +142,65 @@ $white: #ffffff;
   color: $black;
 }
 
+.list-screen-1-background {
+  position: absolute;
+  left: 0; bottom: 0;
+  max-width: 555px;
+  width: 34.5vw;
+  height: 100%;
+}
 
+.list-screen-1 {
+  &__inner {
+    padding-top: 50px;
+    padding-bottom: 100px;
+  }
 
+  &__content {
+    max-width: 64%;
+    margin-left: auto;
+  }
+
+  &__title {
+    margin-bottom: 60px;
+  }
+
+  &__list-container {
+    margin-bottom: 45px;
+  }
+
+  &__list {
+    margin-bottom: 64px;
+    display: flex;
+  }
+
+  &__item {
+    padding-left: 35px;
+    position: relative;
+    flex-basis: calc(50% - 10px);
+    
+    &:first-child {
+      margin-right: 20px;
+    }
+
+    &::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0;
+      width: 30px;
+      height: 30px;
+      background-image: url("../img/icon-1.png");
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+    }
+  }
+
+  &__footnote {
+    font-size: 12px;
+    text-align: center;
+  }
+}
 
 
 
