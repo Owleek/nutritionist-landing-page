@@ -1,7 +1,10 @@
 @import "default";
 
+$black: #000000;
+$white: #ffffff;
+
 .keepcenter {
-  max-width: 1312px;
+  max-width: 1140px;
   margin: 0 auto;
 }
 
@@ -23,6 +26,7 @@
   text-align: center;
   white-space: nowrap;
   cursor: pointer;
+  user-select: none;
   transition: all 0.4s;
 
   &_block {
@@ -34,3 +38,124 @@
       transform: scale(1.1);
   }
 }
+
+.color-black {
+  color: $black;
+}
+
+.font-family-2 {
+  font-family: 'Yeseva One', cursive;
+}
+
+.outer {
+  max-width: 1920px;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+}
+
+.head-screen-background {
+  position: absolute;
+  top: 0; right: -30px;
+  width: 58vw;
+  max-width: 1070px;
+}
+
+.head-screen {
+  position: relative;
+
+  &__container {
+    max-width: 1600px;
+    margin: 0 auto;
+    position: relative;
+  }
+
+  &__inner {
+    padding-top: 64px;
+    padding-bottom: 50px;
+    position: relative;
+    z-index: 1;
+  }
+
+  &__content {
+    max-width: 55%;
+  }
+
+  &__caption {
+    margin-bottom: 20px;
+  }
+
+  &__title {
+    margin-bottom: 56px;
+  }
+
+  &__info {
+    margin-left: 100px;
+    text-align: center;
+  }
+
+  &__text {
+    margin-bottom: 20px;
+  }
+
+  &__obj-1 {
+    max-width: 323px;
+    width: 20.18vw;
+    position: absolute;
+    left: 0; bottom: 45px;
+  }
+}
+
+.header {
+  font-size: rem(18);
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 160px;
+  
+  &__logo {
+    font-weight: bold;
+  }
+}
+
+.nav {
+  font-size: rem(18);
+  color: $white;
+
+  &__list {
+    display: flex;
+  }
+
+  &__item {
+    font-weight: bold;
+
+    &:not(:last-child) {
+      margin-right: 32px;
+    }
+  }
+
+  &__link {
+    color: inherit;
+    text-decoration: none !important;
+  }
+}
+
+.head-screen__dependent-by-bg {
+  color: $black;
+}
+
+
+
+
+
+
+
+// Responsive(Adaptive)
+// ////////////////////
+// ////////////////////
+// ////////////////////
+// ////////////////////
+// ////////////////////
+// ////////////////////
+// ////////////////////
+// ////////////////////
+// ////////////////////

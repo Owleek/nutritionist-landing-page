@@ -90,7 +90,7 @@ function script() {
 
 function img() {
     return gulp.src(path.src.img)
-    .pipe(imagemin())
+    // .pipe(imagemin())
     .pipe(gulp.dest(path.build.img));
 }
 
