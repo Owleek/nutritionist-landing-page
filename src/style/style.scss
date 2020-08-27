@@ -209,7 +209,7 @@ $white: #ffffff;
 
 .advantages {
   position: relative;
-  margin-bottom: 100px;
+  margin-bottom: -30px;
   overflow: hidden;
   padding-bottom: 40px;
 
@@ -284,9 +284,40 @@ $white: #ffffff;
   &__item-title {
     margin-bottom: 32px;
   }
+
+  &__text {
+    color: #7D7987;
+  }
 }
 
+.teaser {
+  &__inner {
+    display: flex;
+  }
 
+  &__image {
+    text-align: center;
+    flex-grow: 1;
+  }
+
+  &__content {
+    padding-top: 90px;
+    flex-basis: 50%;
+    padding-left: 30px;
+  }
+
+  &__title {
+    margin-bottom: 60px;
+  }
+
+  &__info {
+    margin-bottom: 60px;
+  }
+
+  &__text {
+    margin-bottom: 30px;
+  }
+}
 
 // Responsive(Adaptive)
 // ////////////////////
