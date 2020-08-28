@@ -1046,7 +1046,7 @@ $white: #ffffff;
     padding: 0px 50px 0px 15px;
     height: 100vh;
     transition: all 0.5s ease-in-out;
-    z-index: 10;
+    z-index: 99;
 
     &__inner {
       padding-top: 80px;
@@ -1074,8 +1074,115 @@ $white: #ffffff;
     }
   }
 
+
+  .list-screen-1-background {
+    bottom: 15px;
+    min-width: 180px;
+    z-index: -1;
+  }
+
+  .list-screen-1 {
+    &__inner {
+      padding-top: 10px;
+      padding-bottom: 50px;
+      opacity: 0.99;
+    }
+
+    &__content {
+      max-width: 100%;
+      margin-left: 0;
+    }
+
+    &__title {
+      margin-bottom: 30px;
+      text-align: center;
+      font-size: 17px;
+    }
+
+    &__list-container {
+      margin-bottom: 6px;
+    }
+
+    &__list {
+      font-size: 12px;
+      flex-direction: column;
+      padding-bottom: 1px;
+      margin-bottom: 0;
+
+      &:last-child {
+        margin-bottom: 0px;
+      }
+    }
+
+    &__item {
+      padding-left: 0;
+      flex-basis: 100%;
+      margin-bottom: 18px;
+      
+      &:first-child {
+        margin-right: 0;
+      }
+
+      &::before {
+        display: none;
+      }
+    }
+
+    &__footnote {
+      font-size: 8px;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .active .menu {
+    right: -30px;
+  }
 }
 
-.active .menu {
-  right: -30px;
+
+
+
+
+@media (max-width: 567px) {
+  .list-screen-1__list-container {
+    padding-left: 85px;
+  }
 }
+
+
+
+
+
+
+
+
+
+
