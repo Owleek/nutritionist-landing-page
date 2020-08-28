@@ -4,6 +4,10 @@ $(document).ready(function(){
     $("html, body").animate({scrollTop: $($(this).attr("href")).offset().top},500);
   });
 
+  $(".burger").click(function(){
+    $("body").toggleClass('active');
+  });
+
 
   $('#carousel-1').owlCarousel({
     loop: false,
