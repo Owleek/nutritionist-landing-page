@@ -856,7 +856,10 @@ $white: #ffffff;
 // ////////////////////
 // ////////////////////
 @media (max-width: 1199px) { 
-  
+  body {
+    font-size: rem(12);
+  }
+
   h1, h2 {
     line-height: 1.14;
   }
@@ -1221,6 +1224,63 @@ $white: #ffffff;
     }
   }
   
+    
+  .card {
+    padding: 30px 15px;
+    border-radius: 16px;
+    color: $white;
+
+    &__title {
+      margin-bottom: 30px;
+    }
+
+    &__content {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    &__image-container {
+      margin-right: 0px;
+      margin-bottom: 20px;
+    }
+
+    &__image {
+      // max-width: 165px;
+      // max-height: 190px;
+      // margin-bottom: 10px;
+      // object-fit: contain;
+    }
+
+    &__caption {
+      font-size: 8px;
+      // width: 165px;
+    }
+
+    &__info {
+    }
+
+    &__name {
+      font-size: 12px;
+      text-align: center;
+    }
+
+    &__text-block {
+      font-size: 12px;
+      flex-direction: column;
+    }
+
+    &__text {
+      margin-bottom: 8px;
+
+      &_splited {
+        flex-basis: 100%;
+        
+        &:first-child {
+          margin-right: 0px;
+        }
+      }
+    }
+  }
 
 
 
