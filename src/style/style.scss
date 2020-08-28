@@ -1282,9 +1282,22 @@ $white: #ffffff;
     }
   }
 
+  .owl-theme .owl-nav {
+    margin-top: 30px;
+  }
 
+  .owl-carousel .owl-nav button.owl-prev {
+    margin-right: 100px;
+  }
+  .owl-carousel .owl-nav button.owl-next {
+    margin-left: 100px;
+  }
 
-
+  .owl-carousel .owl-nav button.owl-next, 
+  .owl-carousel .owl-nav button.owl-prev {
+    width: 25px;
+    height: 18px;
+  }
 
 
 
