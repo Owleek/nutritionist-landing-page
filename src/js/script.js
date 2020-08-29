@@ -5,7 +5,11 @@ $(document).ready(function(){
   });
 
   $(".burger").click(function(){
-    $("body").toggleClass('active');
+    $(".menu").toggleClass('active');
+  });
+  
+  $(".menu").click(function(){
+      $(this).removeClass("active");
   });
 
   $('#carousel-1').owlCarousel({
