@@ -1,0 +1,119 @@
+[33mcommit c1df5862221283ccfc9c9b080e606eebd3b6d732[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: owleek <owleek@mail.ru>
+Date:   Sat Aug 29 07:40:34 2020 +0300
+
+    reviews complete
+
+[33mcommit f1ee8b105a8958d2cd442c99856434b9db670496[m
+Author: owleek <owleek@mail.ru>
+Date:   Sat Aug 29 06:15:56 2020 +0300
+
+    features complete
+
+[33mcommit b777528fe40d23a1d006ccf10ff99c5b03d6e3e2[m
+Author: owleek <owleek@mail.ru>
+Date:   Fri Aug 28 20:58:36 2020 +0300
+
+    list-screen-2 complete
+
+[33mcommit da232cdb11046787471e0e2f88595234037fc4ed[m
+Author: owleek <owleek@mail.ru>
+Date:   Fri Aug 28 20:48:24 2020 +0300
+
+    card-screen complete
+
+[33mcommit f9c16f650c08fc0ff1f449d479c070dd58b8966a[m
+Author: owleek <owleek@mail.ru>
+Date:   Fri Aug 28 19:33:39 2020 +0300
+
+    card-screen winp
+
+[33mcommit 2f02f5815dca82e8edb788d9cad3f49b5e28c848[m
+Author: owleek <owleek@mail.ru>
+Date:   Fri Aug 28 18:57:51 2020 +0300
+
+    teaser ADAPTIVE
+
+[33mcommit 14a1a6359eee0379bb16280e97d0ef678ce5a372[m
+Author: owleek <owleek@mail.ru>
+Date:   Fri Aug 28 18:11:58 2020 +0300
+
+    advantages ADAPTIVE
+
+[33mcommit ddf54a88ba8ea3d110d1f0be53637647b0c886f9[m
+Author: owleek <owleek@mail.ru>
+Date:   Fri Aug 28 17:18:11 2020 +0300
+
+    list-screen-1 ADAPTIVE
+
+[33mcommit fbcfcb96057469ebbedff93cf3438e978b7fedce[m
+Author: owleek <owleek@mail.ru>
+Date:   Fri Aug 28 15:59:14 2020 +0300
+
+    head-screen ADAPTIVE
+
+[33mcommit 1a2ec3d393927febe0fd6211ae324a274f7e7b88[m
+Author: owleek <owleek@mail.ru>
+Date:   Fri Aug 28 09:35:55 2020 +0300
+
+    buttons
+
+[33mcommit eb80f7fb1d449040962c15f09d005f60a363dcf5[m
+Author: owleek <owleek@mail.ru>
+Date:   Fri Aug 28 08:19:15 2020 +0300
+
+    order-screen & footer
+
+[33mcommit 64161e7da5cc783e9cff423c5a47465d7a399f30[m
+Author: owleek <owleek@mail.ru>
+Date:   Fri Aug 28 01:58:23 2020 +0300
+
+    oreder winp
+
+[33mcommit 43e865ee95c621e642843db67bd401dcef8bb0a4[m
+Author: owleek <owleek@mail.ru>
+Date:   Fri Aug 28 00:24:36 2020 +0300
+
+    reviews
+
+[33mcommit da9501b776ea33a2579a58ad75f573ce280d2279[m
+Author: owleek <owleek@mail.ru>
+Date:   Thu Aug 27 20:35:55 2020 +0300
+
+    features
+
+[33mcommit f4dee895fdb1bcb692eac4688f2df918e4bc385a[m
+Author: owleek <owleek@mail.ru>
+Date:   Thu Aug 27 17:07:28 2020 +0300
+
+    card-screen & list-screen-2
+
+[33mcommit 7d6eaa3c7856ff40d6c33d78e77d42f5cd880960[m
+Author: owleek <owleek@mail.ru>
+Date:   Thu Aug 27 13:27:07 2020 +0300
+
+    teaser
+
+[33mcommit 5b83f00d9c79fb042aa1ef627f16d36c021e0f3f[m
+Author: owleek <owleek@mail.ru>
+Date:   Thu Aug 27 13:01:33 2020 +0300
+
+    advantages
+
+[33mcommit 0dc2c9fbc292242c7b5ab762ddcb8b82bcfd3ae7[m
+Author: owleek <owleek@mail.ru>
+Date:   Thu Aug 27 12:07:12 2020 +0300
+
+    list-screen-1 & fixes
+
+[33mcommit 5c0d633c1d258f66763cf355b082c09775f30746[m
+Author: owleek <owleek@mail.ru>
+Date:   Thu Aug 27 10:23:22 2020 +0300
+
+    head-screen desctop
+
+[33mcommit 8f00cf0af9cdb05910442b481c8818938f7f1254[m
+Author: owleek <owleek@mail.ru>
+Date:   Wed Aug 26 23:50:14 2020 +0300
+
+    init

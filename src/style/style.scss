@@ -411,9 +411,6 @@ $white: #ffffff;
     width: 165px;
   }
 
-  &__info {
-  }
-
   &__name {
     margin-bottom: 20px;
   }
@@ -608,9 +605,6 @@ $white: #ffffff;
     margin-bottom: 35px;
   }
 
-  &__list {
-  }
-
   &__item {
     text-align: center;
     padding: 0px 25px 70px;
@@ -720,16 +714,12 @@ $white: #ffffff;
     margin-right: 40px;
   }
 
-  &__right-column {
-  }
-
   &__title {
     margin-bottom: 24px;
   }
   &__subtitle {
     margin-bottom: 80px;
   }
-  &__text-block {}
   &__text {
     line-height: 1;
 
@@ -737,7 +727,6 @@ $white: #ffffff;
       margin-bottom: 18px;
     }
   }
-  &__inner {}
 }
 
 
@@ -775,8 +764,6 @@ $white: #ffffff;
     font-family: 'Yeseva One', cursive;
     font-size: rem(48);
   }
-  &__text-block {}
-  &__text-block {}
 
   &__input {
     margin-bottom: 16px;
@@ -858,6 +845,20 @@ $white: #ffffff;
 // ////////////////////
 // ////////////////////
 // ////////////////////
+// ////////////////////
+// ////////////////////
+// ////////////////////
+// ////////////////////
+// ////////////////////
+// ////////////////////
+// ////////////////////
+// ////////////////////
+// ////////////////////
+// ////////////////////
+// ////////////////////
+// ////////////////////
+// ////////////////////
+// ////////////////////
 @media (max-width: 1199px) { 
   body {
     font-size: rem(12);
@@ -868,7 +869,7 @@ $white: #ffffff;
   }
 
   h1 {
-    font-size: rem(28);
+    font-size: rem(24);
   }
 
   h2 {
@@ -884,10 +885,7 @@ $white: #ffffff;
     font-weight: bold;
   }
 
-
-    
   .button {
-
     &_style_1 {
       width: 100%;
 
@@ -920,6 +918,9 @@ $white: #ffffff;
     }
 
     &_style_5 {
+      padding-top: 13px;
+      padding-bottom: 13px;
+      font-size: rem(18);
       width: 100%;
     }
   }
@@ -927,7 +928,6 @@ $white: #ffffff;
   .keepcenter {
     max-width: 320px;
     padding: 0px 15px;
-
 
     &_wide {
       max-width: 100%;
@@ -939,36 +939,6 @@ $white: #ffffff;
     }
   }
 
-
-  .burger {
-    position: relative;
-    display: block;
-    z-index: 100;
-    margin-right: 15px;
-
-    &__line {
-      width: 20px;
-      height: 3px;
-      background: #ffffff;
-      display: block;
-
-      &:not(:last-child) {
-        margin-bottom: 3px;
-      }
-    }
-  }
-
-  .header {
-    position: relative;
-    padding-top: 23px;
-    margin-bottom: 120px;
-
-    &__logo {
-      font-size: 12px;
-      padding-left: 15px;
-    }
-  }
-
   .head-screen-background {
     right: 0;
 
@@ -976,11 +946,13 @@ $white: #ffffff;
       min-width: 275px;
     }
   }
+  
   .head-screen__obj-1 {
     left: -65px;
     bottom: 27px;
     min-width: 182px;
   }
+
   .head-screen {
     &__content {
       max-width: 320px;
@@ -1026,8 +998,35 @@ $white: #ffffff;
     }
 
   }
-  
-  
+
+  .header {
+    position: relative;
+    padding-top: 23px;
+    margin-bottom: 120px;
+
+    &__logo {
+      font-size: 12px;
+      padding-left: 15px;
+    }
+  }
+
+  .burger {
+    position: relative;
+    display: block;
+    z-index: 100;
+    margin-right: 15px;
+
+    &__line {
+      width: 20px;
+      height: 3px;
+      background: #ffffff;
+      display: block;
+
+      &:not(:last-child) {
+        margin-bottom: 3px;
+      }
+    }
+  }
 
   .menu {
     position: absolute;
@@ -1065,6 +1064,9 @@ $white: #ffffff;
     }
   }
 
+  .active .menu {
+    right: -30px;
+  }
 
   .list-screen-1-background {
     bottom: 15px;
@@ -1190,12 +1192,8 @@ $white: #ffffff;
     }
   }
 
-
   .teaser {
     position: relative;
-
-    &__inner {
-    }
   
     &__image {
       position: absolute;
@@ -1251,19 +1249,8 @@ $white: #ffffff;
       margin-bottom: 20px;
     }
 
-    &__image {
-      // max-width: 165px;
-      // max-height: 190px;
-      // margin-bottom: 10px;
-      // object-fit: contain;
-    }
-
     &__caption {
       font-size: 8px;
-      // width: 165px;
-    }
-
-    &__info {
     }
 
     &__name {
@@ -1420,15 +1407,61 @@ $white: #ffffff;
     bottom: -38px;
   }
 
+    
+  .order-screen {
+    &__inner {
+      flex-direction: column;
+      text-align: center;
 
-  .active .menu {
-    right: -30px;
+      &::before {
+        display: none;
+      }
+    }
+    &__left-column {
+      flex-basis: 100%;
+      margin-right: 0px;
+    }
+    &__title {
+      margin-bottom: 20px;
+    }
+    &__subtitle {
+      margin-bottom: 42px;
+    }
+    &__text {
+      font-size: 12px;
+    }
   }
+
+  .form-box {
+    padding-top: 50px;
+  }
+
+  .form {
+    &__title {
+      font-size: 17px;
+      text-transform: uppercase;
+      padding: 0px;
+    }
+
+    &__input {
+      margin-bottom: 10px;
+
+      &:last-of-type {
+        margin-bottom: 20px;
+      }
+    }
+
+    &__button {
+      margin-bottom: 20px;
+    }
+
+    &__countdown {
+      font-size: 21px;
+    }
+  }
+
+  
 }
-
-
-
-
 
 @media (max-width: 567px) {
   .list-screen-1__list-container {
