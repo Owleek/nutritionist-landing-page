@@ -8,7 +8,6 @@ $(document).ready(function(){
     $("body").toggleClass('active');
   });
 
-
   $('#carousel-1').owlCarousel({
     loop: false,
     margin: 10,
@@ -38,7 +37,7 @@ $(document).ready(function(){
       0:{
           items:1,
           nav:true,
-          dots:true
+          dots:true,
       },
       1000:{
           items:3,
