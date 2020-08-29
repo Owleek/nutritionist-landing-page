@@ -560,10 +560,10 @@ $white: #ffffff;
   &__picture {
     height: 120px;
     margin-bottom: 10px;
-  }
-
-  &__icon {
-    object-fit: contain;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    filter: drop-shadow(0px 0px 50px rgba(143, 0, 255, 0.3));
   }
 
   &__caption {
@@ -929,6 +929,10 @@ $white: #ffffff;
     &_wide {
       max-width: 100%;
       padding: 0;
+    }
+
+    &_thin {
+      padding: 0px;
     }
   }
 
@@ -1320,6 +1324,49 @@ $white: #ffffff;
 
     &__item-title {
       margin-bottom: 15px;
+    }
+  }
+
+    
+  .features {
+    &__inner {
+      padding-top: 0px;
+      padding-right: 15px;
+      padding-left: 15px;
+    }
+
+    &__title {
+      margin-bottom: 30px;
+    }
+
+    &__list {
+      flex-direction: column;
+      margin-right: 0px;
+      margin-bottom: 0px;
+    }
+
+    &__item {
+      flex-basis: 100%;
+      margin-right: 0px;
+      padding: 0;
+      position: relative;
+      min-height: 80px;
+      display: flex;
+      align-items: center;
+      padding-left: 100px;
+      opacity: 0.99;
+    }
+
+    &__picture {
+      position: absolute;
+      height: auto;
+      left: 0; bottom: 0;
+      margin-bottom: 0px;
+      z-index: -1;
+    }
+
+    &__caption {
+      align-self: center;
     }
   }
 
