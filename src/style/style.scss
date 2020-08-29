@@ -861,36 +861,44 @@ $white: #ffffff;
     position: absolute;
 
     &_1 {
-      right: 268px;
+      right: 16.75vw;
+      // right: 268px;
       top: 682px;
     }
     &_2 {
-      left: 567px;
+      left: 45.43vw;
+      // left: 567px;
       top: 816px;
     }
     &_3 {
-      left: 214px;
+      left: 13.37vw;
+      // left: 214px;
       top: 404px;
     }
     &_4 {
-      left: 732px;
+      left: 45.75vw;
+      // left: 732px;
       top: 616px;
     }
     &_5 {
-      right: 330px;
+      right: 20.62vw;
+      // right: 330px;
       top: 266px;
     }
     &_6 {
-      left: 543px;
+      left: 33.93vw;
+      // left: 543px;
       top: 522px;
     }
     &_7 {
-      top: 213px;
+      top: 13.31vw;
+      // top: 213px;
       right: 155px;
     }
     &_8 {
+      right: 27.56vw;
+      // right: 441px;
       top: 533px;
-      right: 441px;
     }
   }
 }
@@ -1024,12 +1032,16 @@ $white: #ffffff;
       font-family: 'Montserrat', sans-serif;
       font-size: 12px;
       max-width: 170px;
-      margin-bottom: 32px;
+      position: absolute;
+      left: 15px;
+      top: 30px;
+      transform: translateY(100%);
     }
 
     &__title {
       text-align: center;
       margin-bottom: 36px;
+      padding-top: 60px;
     }
 
     &__info {
@@ -1124,8 +1136,12 @@ $white: #ffffff;
     }
   }
 
-  .menu.active {
+  .active .menu {
     right: -30px;
+  }
+
+  .active {
+    overflow: hidden;
   }
 
   .list-screen-1-background {
@@ -1260,6 +1276,7 @@ $white: #ffffff;
       bottom: 0; left: 0px;
       z-index: 0;
       max-width: 260px;
+      transform: translateX(100%);
     }
   
     &__content {
@@ -1366,6 +1383,8 @@ $white: #ffffff;
 
     &__inner {
       padding-top: 0px;
+      position: relative;
+      z-index: 1;
     }
 
     &__title {
@@ -1395,7 +1414,7 @@ $white: #ffffff;
     }
 
     &__title {
-      margin-bottom: 30px;
+      margin-bottom: 50px;
     }
 
     &__list {
@@ -1599,12 +1618,24 @@ $white: #ffffff;
   }
 }
 
+@media (max-width: 1023px) {
+  .teaser__image {
+    transform: translateX(70%);
+  }
+}
+
+@media (max-width: 811px) {
+  .teaser__image {
+    transform: translateX(25%);
+  }
+}
 @media (max-width: 567px) {
   .list-screen-1__list-container {
     padding-left: 85px;
   }
 
   .teaser__image {
+    transform: translateX(0);
     left: -61px;
   }
 }

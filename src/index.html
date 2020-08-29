@@ -21,7 +21,7 @@
 <body>
   <main class="main overflow-hidden">
     <div class="outer">
-      <section class="head-screen">
+      <section class="head-screen" id="i-about">
         <div class="head-screen__container">
           <div class="keepcenter keepcenter_wide">
             <div class="head-screen__inner">
@@ -34,22 +34,22 @@
                     <nav class="nav header__nav">
                       <ul class="nav__list">
                         <li class="nav__item">
-                          <a href="#" class="nav__link scrollTo head-screen__dependent-by-bg">
+                          <a href="#i-about" class="nav__link scrollTo head-screen__dependent-by-bg">
                             О курсе
                           </a>
                         </li>
                         <li class="nav__item">
-                          <a href="#" class="nav__link scrollTo">
+                          <a href="#i-coach" class="nav__link scrollTo">
                             Преподаватели
                           </a>
                         </li>
                         <li class="nav__item">
-                          <a href="#" class="nav__link scrollTo">
+                          <a href="#i-steps" class="nav__link scrollTo">
                             Как проходит обучение
                           </a>
                         </li>
                         <li class="nav__item">
-                          <a href="#" class="nav__link scrollTo">
+                          <a href="#i-review" class="nav__link scrollTo">
                             Отзывы
                           </a>
                         </li>
@@ -86,7 +86,7 @@
                     </p>
                   </div>
                   <div class="head-screen__button-holder">
-                    <a href="" class="button scrollTo button_style_1">
+                    <a href="#order" class="button scrollTo button_style_1">
                       Подробнее
                     </a>
                   </div>
@@ -227,7 +227,7 @@
               </p>
             </div>
             <div class="teaser__button-holder">
-              <a href="" class="button button_style_2 scrollTo">
+              <a href="#order" class="button button_style_2 scrollTo">
                 Получить курс
               </a>
             </div>
@@ -235,7 +235,7 @@
         </div>
       </div>
     </section>
-    <section class="card-screen">
+    <section class="card-screen" id="i-coach">
       <div class="keepcenter keepcenter_thin">
         <div class="card-screen__inner owl-carousel owl-theme" id="carousel-1">
           <div class="card card-screen__card">
@@ -349,6 +349,16 @@
     </section>
     <section class="list-screen-2">
       <div class="list-screen-2__container">
+        <div class="leaves">
+          <img src="img/item-1.png" alt="" class="leaves__item leaves__item_1">
+          <img src="img/item-2.png" alt="" class="leaves__item leaves__item_2">
+          <img src="img/item-3.png" alt="" class="leaves__item leaves__item_3">
+          <img src="img/item-4.png" alt="" class="leaves__item leaves__item_4">
+          <img src="img/item-5.png" alt="" class="leaves__item leaves__item_5">
+          <img src="img/item-6.png" alt="" class="leaves__item leaves__item_6">
+          <img src="img/item-7.png" alt="" class="leaves__item leaves__item_7">
+          <img src="img/item-8.png" alt="" class="leaves__item leaves__item_8">
+        </div>
         <div class="keepcenter">
           <div class="list-screen-2__inner">
             <div class="list-screen-2__content">
@@ -411,26 +421,16 @@
                 </li>
               </ul>
               <div class="list-screen-2__button-holder text-center">
-                <a href="" class="button button_style_3 scrollTo">
+                <a href="#order" class="button button_style_3 scrollTo">
                   Начать обучение
                 </a>
               </div>
             </div>
           </div>
         </div>
-        <div class="leaves">
-          <img src="img/item-1.png" alt="" class="leaves__item leaves__item_1">
-          <img src="img/item-2.png" alt="" class="leaves__item leaves__item_2">
-          <img src="img/item-3.png" alt="" class="leaves__item leaves__item_3">
-          <img src="img/item-4.png" alt="" class="leaves__item leaves__item_4">
-          <img src="img/item-5.png" alt="" class="leaves__item leaves__item_5">
-          <img src="img/item-6.png" alt="" class="leaves__item leaves__item_6">
-          <img src="img/item-7.png" alt="" class="leaves__item leaves__item_7">
-          <img src="img/item-8.png" alt="" class="leaves__item leaves__item_8">
-        </div>
       </div>
     </section>
-    <section class="features">
+    <section class="features" id="i-steps">
       <div class="keepcenter keepcenter_thin">
         <div class="features__inner">
           <h3 class="features__title">
@@ -573,7 +573,7 @@
             </li>
           </ul>
           <div class="features__button-holder text-center">
-            <a href="" class="button button_style_4 scrollTo">
+            <a href="#order" class="button button_style_4 scrollTo">
               Начать обучение
             </a>
           </div>
@@ -599,7 +599,7 @@
         </div>
       </div>
     </section>
-    <section class="reviews">
+    <section class="reviews" id="i-review">
       <div class="keepcenter keepcenter_thin">
         <div class="reviews__inner">
           <div class="reviews__container">
@@ -746,8 +746,8 @@
                     <span class="form__price-previous">1890</span>
                     <span class="form__price-current">990 Руб</span>
                   </div>
-                  <input type="text" class="form__input" name="name" placeholder="Имя">
-                  <input type="text" class="form__input" name="phone" placeholder="Телефон">
+                  <input type="text" class="form__input" name="name" placeholder="Ваше имя">
+                  <input type="text" class="form__input" name="email" placeholder="Ваш email">
                   <a href="" class="button button_block button_style_5 form__button">Заказать</a>
                   <div class="form__countdown">
                     09:59:55
@@ -807,22 +807,22 @@
           <nav class="nav footer__nav">
             <ul class="nav__list">
               <li class="nav__item">
-                <a href="" class="nav__link scrollTo">
+                <a href="#i-about" class="nav__link scrollTo">
                   О&nbspкурсе
                 </a>
               </li>
               <li class="nav__item">
-                <a href="" class="nav__link scrollTo">
+                <a href="#i-coach" class="nav__link scrollTo">
                   Преподаватели
                 </a>
               </li>
               <li class="nav__item">
-                <a href="" class="nav__link scrollTo">
+                <a href="#i-steps" class="nav__link scrollTo">
                   Как проходит обучение
                 </a>
               </li>
               <li class="nav__item">
-                <a href="" class="nav__link scrollTo">
+                <a href="#i-review" class="nav__link scrollTo">
                   Отзывы
                 </a>
               </li>
