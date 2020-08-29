@@ -71,5 +71,36 @@ $(document).ready(function(){
       }
     }
   })
+
+  // $(window).scroll(function(){
+  //   let section = $(".list-screen-2").offset();
+  //   let wScroll = $(this).scrollTop();
+    
+  //   $(".list-screen-2 .leaves__item_1").css({
+  //     'transform': 'translate(0,' + (wScroll - section.top) / 7 + '%)'
+  //   });
+  //   $(".list-screen-2 .leaves__item_2").css({
+  //     'transform': 'translate(0,' + (wScroll - section.top) / 7 + '%)'
+  //   });
+  //   $(".list-screen-2 .leaves__item_3").css({
+  //     'transform': 'translate(0,' + (wScroll - section.top) / 7 + '%)'
+  //   });
+  //   $(".list-screen-2 .leaves__item_4").css({
+  //     'transform': 'translate(0,' + (wScroll - section.top) / 7 + '%)'
+  //   });
+  //   $(".list-screen-2 .leaves__item_5").css({
+  //     'transform': 'translate(0,' + (wScroll - section.top) / 7 + '%)'
+  //   });
+  //   $(".list-screen-2 .leaves__item_6").css({
+  //     'transform': 'translate(0,' + (wScroll - section.top) / 7 + '%)'
+  //   });
+  //   $(".list-screen-2 .leaves__item_7").css({
+  //     'transform': 'translate(0,' + (wScroll - section.top) / 7 + '%)'
+  //   });
+  //   $(".list-screen-2 .leaves__item_8").css({
+  //     'transform': 'translate(0,' + (wScroll - section.top) / 7 + '%)'
+  //   });
+  // });
+  
 });
 

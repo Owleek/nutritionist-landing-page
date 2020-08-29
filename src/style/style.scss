@@ -481,6 +481,16 @@ $white: #ffffff;
 
 
 .list-screen-2 {
+  &__container {
+    max-width: 1600px;
+    margin: 0 auto;
+    position: relative;
+    background-image: url("../img/bg-test.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+
   &__inner {
     padding-top: 50px;
     padding-bottom: 50px;
@@ -838,6 +848,51 @@ $white: #ffffff;
   color: #ffffff;
   margin-top: auto;
   margin-bottom: 30px;
+}
+
+
+.leaves {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  opacity: 0.99;
+
+  &__item {
+    position: absolute;
+
+    &_1 {
+      right: 268px;
+      top: 682px;
+    }
+    &_2 {
+      left: 567px;
+      top: 816px;
+    }
+    &_3 {
+      left: 214px;
+      top: 404px;
+    }
+    &_4 {
+      left: 732px;
+      top: 616px;
+    }
+    &_5 {
+      right: 330px;
+      top: 266px;
+    }
+    &_6 {
+      left: 543px;
+      top: 522px;
+    }
+    &_7 {
+      top: 213px;
+      right: 155px;
+    }
+    &_8 {
+      top: 533px;
+      right: 441px;
+    }
+  }
 }
 // Responsive(Adaptive)
 // ////////////////////
@@ -1305,6 +1360,10 @@ $white: #ffffff;
   }
     
   .list-screen-2 {
+    &__container {
+      background-image: url("../img/bg-3.mob.png");
+    }
+
     &__inner {
       padding-top: 0px;
     }
@@ -1533,6 +1592,10 @@ $white: #ffffff;
         text-decoration: none !important;
       }
     }
+  }
+
+  .leaves {
+    display: none;
   }
 }
 
